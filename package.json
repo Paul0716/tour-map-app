@@ -1,7 +1,23 @@
 {
-  "name": "tourMapApp",
+  "name": "tour-map-app",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Ku Hung-Hsi <justlove0714@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "nuxt": "^1.4.2",
+    "nuxt-class-component": "^1.2.1",
+    "nuxt-property-decorator": "^1.2.0",
+    "nuxt-typescript": "^0.11.0",
+    "sass-loader": "^7.1.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.3",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1"
+  }
 }
